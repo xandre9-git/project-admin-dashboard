@@ -1,0 +1,29 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas:
+    "a b b b"
+    "a c c c"
+    "a c c c"
+    "a c c c";
+  gap: 4px;
+}
+
+.sidebar {
+  grid-area: a;
+  background-color: blue;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.header {
+  grid-area: b;
+  background-color: green;
+}
+
+.content {
+  background-color: pink;
+  grid-area: c;
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  
+}
