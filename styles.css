@@ -25,10 +25,17 @@
 .dashboard {
   display: flex;
   justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
 
 .dashboard > img {
-  width: 15%;
+  width: 12%;
+}
+
+.top-links, .bottom-links {
+  margin-bottom: 10%;
+  margin-left: 10%;
 }
 
 .nav-icon {
