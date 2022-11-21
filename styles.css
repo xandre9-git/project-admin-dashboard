@@ -85,6 +85,12 @@ ul {
   font-weight: bold;
 }
 
+ul.top-links {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+}
+
 .sidebar > h1 {
   color: white;
   text-align: center;
