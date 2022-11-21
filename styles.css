@@ -22,19 +22,16 @@
 }
 
 .dashboard {
-  display: flex;
-  justify-content: center;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  font-size: 1.1rem;
+  font-weight: bold;
   margin-top: 5%;
   margin-bottom: 10%;
+  margin-left: 7.5%;
+  color: white;
 }
 
-.dashboard > img {
-  width: 12%;
-}
-
-.dashboard > h1 {
-  max-width: 100%;
-}
 
 .top-links, .bottom-links {
   margin-bottom: 10%;
@@ -85,13 +82,5 @@ ul {
   font-weight: bold;
 }
 
-ul.top-links {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: flex-end; */
-}
 
-.sidebar > h1 {
-  color: white;
-  text-align: center;
-}
+
