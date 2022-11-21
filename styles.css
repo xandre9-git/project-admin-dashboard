@@ -19,7 +19,6 @@
   grid-area: a;
   background-color: rgb(0, 204, 255);
   grid-template-rows: repeat(3, 1fr);
-
 }
 
 .dashboard {
@@ -33,13 +32,17 @@
   width: 12%;
 }
 
+.dashboard > h1 {
+  max-width: 100%;
+}
+
 .top-links, .bottom-links {
   margin-bottom: 10%;
   margin-left: 10%;
 }
 
 .nav-icon {
-  width: 12%;
+  width: 10%;
 }
 
 .header {
