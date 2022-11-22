@@ -78,6 +78,13 @@ input {
 .notify-avatar {
   background-color: tomato;
   grid-area: e;
+  display: flex;
+  /* justify-content: center; */
+}
+
+.notify-avatar > ul {
+  display: flex;
+  justify-content: center;
 }
 
 .profile-commands {
