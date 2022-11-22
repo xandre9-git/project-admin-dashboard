@@ -3,6 +3,16 @@
   padding: 0;
 }
 
+ul {
+  list-style-type: none;
+  color: white;
+  font-weight: bold;
+}
+
+input {
+  appearance: none;
+}
+
 .main-container {
   display: grid;
   grid-template-columns: 1fr 5fr;
@@ -52,8 +62,16 @@
 }
 
 .search-bar {
-  background-color: yellow;
+  background-color: white;
   grid-area: d;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar > input {
+  height: 75%;
+  width: 75%;
+  align-self: center;
 }
 
 .notify-avatar {
@@ -63,7 +81,7 @@
 
 .profile-commands {
   grid-area: f;
-  background-color: green;
+  background-color: lightseagreen;
 }
 
 .content {
@@ -89,11 +107,6 @@
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
-  color: white;
-  font-weight: bold;
-}
 
 
 
