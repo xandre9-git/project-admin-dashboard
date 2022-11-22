@@ -17,7 +17,7 @@
 
 .sidebar {
   grid-area: a;
-  background: linear-gradient(red, purple);
+  background: linear-gradient(teal,purple);
   grid-template-rows: repeat(3, 1fr);
 }
 
@@ -41,14 +41,29 @@
 }
 
 .header {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
   grid-area: b;
+  display: grid;
+  grid-template-areas: 
+    "d e"
+    "f f";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   background-color: rgb(154, 255, 154);
 }
 
 .search-bar {
   background-color: yellow;
+  grid-area: d;
+}
+
+.notify-avatar {
+  background-color: tomato;
+  grid-area: e;
+}
+
+.profile-commands {
+  grid-area: f;
+  background-color: green;
 }
 
 .content {
