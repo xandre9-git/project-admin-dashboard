@@ -89,6 +89,10 @@ input {
   align-items: center;
 }
 
+.notify-avatar > ul > li {
+  color: blue;
+}
+
 .profile-commands {
   grid-area: f;
   background-color: lightseagreen;
