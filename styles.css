@@ -79,12 +79,14 @@ input {
   background-color: tomato;
   grid-area: e;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
+  align-items: center;
 }
 
 .notify-avatar > ul {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .profile-commands {
