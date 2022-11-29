@@ -9,6 +9,7 @@ ul {
   font-weight: bold;
 }
 
+
 input {
   appearance: none;
 }
@@ -76,10 +77,10 @@ input {
 }
 
 .notify-avatar {
-  background-color: tomato;
+  background-color: white;
   grid-area: e;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -90,7 +91,10 @@ input {
 }
 
 .notify-avatar > ul > li {
-  color: blue;
+  color: black;
+  display: flex;
+  align-items: center;
+  width: 50px;
 }
 
 .profile-commands {
