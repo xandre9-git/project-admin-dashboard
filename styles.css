@@ -106,7 +106,7 @@ input {
   align-items: center;
 }
 
-.notify-avatar > div > a > img {
+.bell {
   padding-right: 15px;
 }
 
