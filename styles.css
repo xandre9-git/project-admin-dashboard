@@ -1,7 +1,17 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color: pink;
 }
 
 ul {
@@ -13,7 +23,6 @@ ul {
 ul > li {
   display: flex;
 }
-
 
 input {
   appearance: none;
@@ -33,7 +42,7 @@ input {
 
 .sidebar {
   grid-area: a;
-  background: linear-gradient(teal,purple);
+  background: linear-gradient(teal, purple);
   min-width: 170px;
 }
 
@@ -50,7 +59,8 @@ input {
   display: flex;
 }
 
-.top-links, .bottom-links {
+.top-links,
+.bottom-links {
   margin-bottom: 10%;
   margin-left: 10%;
 }
@@ -63,7 +73,7 @@ input {
 .header {
   grid-area: b;
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
     "d e"
     "f f";
   grid-template-columns: 1fr 1fr;
@@ -94,6 +104,10 @@ input {
   align-items: center;
 }
 
+.notify-avatar > div > a > img {
+  padding-right: 15px;
+}
+
 .notify-avatar > div:nth-child(2) {
   display: flex;
   align-items: center;
@@ -108,7 +122,7 @@ input {
   background-color: orange;
   grid-area: c;
   display: grid;
-  grid-template-rows: 1fr 3fr; 
+  grid-template-rows: 1fr 3fr;
   grid-template-columns: 2fr 1fr;
 }
 
@@ -126,7 +140,3 @@ input {
   background-color: white;
   text-align: center;
 }
-
-
-
-
