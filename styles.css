@@ -7,11 +7,15 @@
 a {
   display: flex;
   text-decoration: none;
-  
+  color: white;
 }
 
 a:hover {
-  color: pink;
+  color: orange;
+}
+
+a:visited {
+  color: inherit;
 }
 
 ul {
