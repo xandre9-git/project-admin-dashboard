@@ -21,7 +21,7 @@ input {
 
 .main-container {
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 4fr;
   grid-template-areas:
     "a b b b"
     "a c c c"
@@ -34,7 +34,7 @@ input {
 .sidebar {
   grid-area: a;
   background: linear-gradient(teal,purple);
-  grid-template-rows: repeat(3, 1fr);
+  min-width: 170px;
 }
 
 .dashboard {
@@ -90,13 +90,12 @@ input {
   background-color: white;
   grid-area: e;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
-.notify-avatar > ul {
+.notify-avatar > div:nth-child(2) {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
