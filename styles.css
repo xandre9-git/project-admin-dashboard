@@ -90,7 +90,7 @@ input {
     "d e"
     "f f";
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 0.5fr;
   background-color: rgb(154, 255, 154);
 }
 
@@ -103,7 +103,7 @@ input {
 }
 
 .search-bar > input {
-  height: 50%;
+  height: 32px;
   width: 75%;
   align-self: center;
   font-size: 1.5rem;
@@ -140,9 +140,13 @@ input {
   grid-template-columns: 2fr 1fr;
 }
 
+.content > h2 {
+  margin: 2.5%;
+}
+
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 8px;
   justify-items: center;
   align-items: center;
@@ -150,7 +154,8 @@ input {
 
 .card {
   height: 200px;
-  width: 200px;
+  width: 300px;
   background-color: white;
   text-align: center;
+  border-radius: 5px;
 }
