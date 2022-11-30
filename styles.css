@@ -88,9 +88,9 @@ input {
   display: grid;
   grid-template-areas:
     "d e"
-    "f f";
+    "f g";
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 0.5fr;
+  grid-template-rows: 1fr 1fr;
   background-color: rgb(154, 255, 154);
 }
 
@@ -132,9 +132,18 @@ input {
   height: 60px;
 }
 
-.profile-commands {
+.greeting {
+  display: flex;
   grid-area: f;
+  justify-content: center;
+}
+
+.profile-commands {
+  grid-area: g;
   background-color: lightseagreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .content {
@@ -144,8 +153,9 @@ input {
   grid-template-columns: 2fr 1fr;
 }
 
-.content > h2 {
-  margin: 2.5%;
+.content > h3 {
+  margin-top: 1%;
+  margin-left: 1%;
 }
 
 .cards {
