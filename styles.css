@@ -20,7 +20,7 @@ a:visited {
 
 ul {
   list-style-type: none;
-  color: white;
+  color: black;
   font-weight: bold;
 }
 
@@ -176,7 +176,8 @@ input {
 }
 
 .card {
-  height: 200px;
+  height: auto;
+  min-height: 200px;
   width: 300px;
   background-color: white;
   text-align: center;
