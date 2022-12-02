@@ -189,6 +189,14 @@ input {
   justify-content: space-between;
 }
 
+.text-description > h4 {
+  padding: 5% 5% 0 5%;
+}
+
+.text-description > p {
+  padding-left: 5%;
+}
+
 .card-commands {
   display: flex;
   justify-content: flex-end;
