@@ -220,9 +220,14 @@ input {
 }
 
 .announcements-container {
-  /* padding: 5%; */
+
 }
 
 .announcements-card {
   padding: 3%;
+}
+
+.trending-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
