@@ -40,7 +40,6 @@ input {
     "a c c c"
     "a c c c"
     "a c c c";
-  gap: 4px;
   height: 100vh;
 }
 
@@ -165,7 +164,7 @@ input {
 }
 
 .projects-title, .announcements-title  {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -177,12 +176,13 @@ input {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 8px;
+  row-gap: 24px;
   justify-items: center;
 }
 
 .card {
   height: auto;
-  min-height: 200px;
+  min-height: 175px;
   width: 300px;
   background-color: white;
   border-radius: 5px;
