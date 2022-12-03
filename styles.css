@@ -158,7 +158,7 @@ input {
 }
 
 .content {
-  background-color: orange;
+  background-color: lightgrey;
   grid-area: c;
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -178,7 +178,6 @@ input {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 8px;
   justify-items: center;
-  align-items: center;
 }
 
 .card {
@@ -186,11 +185,14 @@ input {
   min-height: 200px;
   width: 300px;
   background-color: white;
-  /* text-align: center; */
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.project-card {
+  width: 365px;
 }
 
 .text-description > h4 {
@@ -215,4 +217,12 @@ input {
 
 .trending > a {
   color: black
+}
+
+.announcements-container {
+  /* padding: 5%; */
+}
+
+.announcements-card {
+  padding: 3%;
 }
