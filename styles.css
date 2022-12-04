@@ -219,7 +219,7 @@ input {
 
 .card-commands > a {
   color: black;
-}
+}   
 
 .trending > a {
   color: black
@@ -227,7 +227,7 @@ input {
 
 
 
-.announcements-card, .trending-card {
+.announcements-card {
   padding: 3%;
 }
 
@@ -241,3 +241,13 @@ input {
   flex-direction: column;
   justify-content: space-around;
 }
+
+.trending-card {
+  padding: 1.5%;
+}
+
+.trending-card > a {
+  display: flex;
+  align-items: center;
+}
+
