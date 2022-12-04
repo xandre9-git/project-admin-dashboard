@@ -114,6 +114,7 @@ input {
   border-radius: 20px;
   border: 1px solid lightgray;
   padding: 2%;
+  background-color: whitesmoke;
 }
 
 .notify-avatar {
@@ -161,7 +162,7 @@ input {
 }
 
 .content {
-  background-color: lightgrey;
+  background-color: whitesmoke;
   grid-area: c;
   display: grid;
   grid-template-columns: 2fr 1fr;
