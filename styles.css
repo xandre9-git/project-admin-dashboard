@@ -165,6 +165,10 @@ input {
   border-radius: 25px;
 }
 
+.cus-btn:hover {
+  background-color: teal;
+}
+
 .content {
   background-color: whitesmoke;
   grid-area: c;
