@@ -260,3 +260,8 @@ input {
   align-items: center;
 }
 
+.trending-box {
+  display: flex;
+  flex-direction: column;
+}
+
